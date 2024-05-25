@@ -1,0 +1,29 @@
+L_neg 115e-6[m] Thickness negative electrode
+L_pos 35e-6[m] Thickness positive electrode
+L_sep 50e-6[m] Thickness separator
+epscs_pos 0.11 Electronic conductor volume fraction positive electrode
+epsl_pos 0.29 Electrolyte volume fraction positive electrode
+epss_pos 0.31 Active material volume fraction positive electrode
+brugl_pos 2.928 Bruggeman coefficient for tortuosity in positive electrode
+epscs_neg 0.0423 Electronic conductor volume fraction negative electrode
+epsl_neg 1-epss_neg-epscs_neg-0.048 Electrolyte volume fraction negative electrode
+epss_neg 0.25 Active material volume fraction negative electrode
+brugl_neg 3.50 Bruggeman coefficient for tortuosity in negative electrode
+epsl_sep 0.37 Electrolyte volume fraction separator
+brugl_sep 3.15 Bruggeman coefficient for tortuosity in separator
+cl_init 1200[mol/m^3] Initial electrolyte salt concentration
+soc0_neg 0.326 Initial state-of-charge negative electrode equal to 1.55V vs Li+/Li(s)
+soc0_pos 0.588 Initial state-of-charge positive electrode equal to 3.85V vs Li+/Li(s)
+rp_neg 5e-7[m] Active material particle radius negative electrode
+rp_pos 2.4911e-7[m] Active material particle radius positive electrode
+as_pos 1.9248e6[1/m] Specific surface area positive electrode material
+i0_pos 1[A/m^2] Exchange current density positive electrode
+cdlvol_cs_pos 2.577e5[F/m^3] Volumetric capacitance of electronic conductor in positive electrode
+cdl_pos 0.2393[F/m^2] Double layer capacitance positive electrode material
+Rfilm_pos 2.848e-3[m^2/S] Film resistance positive electrode
+i0ref_neg 1.08e3[A/m^2] Reference exchange current density negative electrode
+cdl_neg cdl_pos Double layer capacitance positive electrode material
+Rfilm_neg 1e-5 Film resistance negative electrode
+R_curr 1.1e-4[m^2/S] Current collector resistance at each current collector
+A_cell 32e-4[m^2] Current collector area
+E_pert 0.01[V] Amplitude of potential perturbation
